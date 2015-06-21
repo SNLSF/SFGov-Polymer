@@ -1,0 +1,52 @@
+body {
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4em;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3em;
+}
+
+.header-band {
+	border: 1px solid red;
+	display: block;
+	height: 300px;
+	background: #ffffff url("") no-repeat;
+	background-size: contain;
+	padding-top: 10%;
+}
+
+.main-band {
+	border: 1px solid red;
+	display: block;
+}
+
+.side-panel {
+	border: 1px solid red;
+	display: inline-block;
+	width: 30%;
+	/*margin: 0;*/
+	margin-left: 3%;
+}
+
+.map-area {
+	border: 1px solid red;
+	display: inline-block;
+	width: 65%;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	line-height: 1.5em;
+}
+
+
