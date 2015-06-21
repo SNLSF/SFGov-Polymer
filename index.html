@@ -5,23 +5,32 @@
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
+	<script src="script.js"></script>
+	<!-- Polyfill Web Components for older browsers -->
+	<script src="/components/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>	
 </head>
 <body>
 	<div class="header-band"><h1>SF Drug Crimes</h1></div>
 	<div class="main-band">
 		<div class="side-panel">
 			<h2>Checkboxes Below</h2>
+			<link rel="import" href="components/bower_components/paper-checkbox/paper-checkbox.html">
 			<ul>
-				<li>Checkbox placeholder</li>
-				<li>Checkbox placeholder</li>
-				<li>Checkbox placeholder</li>
-				<li>Checkbox placeholder</li>
-				<li>Checkbox placeholder</li>
-				<li>Checkbox placeholder</li>
+				<li><paper-checkbox checked>Checkbox placeholder</paper-checkbox></li>
+				<li><paper-checkbox checked>Checkbox placeholder</paper-checkbox></li>
+				<li><paper-checkbox checked>Checkbox placeholder</paper-checkbox></li>
+				<li><paper-checkbox checked>Checkbox placeholder</paper-checkbox></li>
+				<li><paper-checkbox checked>Checkbox placeholder</paper-checkbox></li>
+				<li><paper-checkbox checked>Checkbox placeholder</paper-checkbox></li>
 			</ul>
 		</div>
-		<div class="map-area">Map Here</div>
+		<div class="map-area">
+			<link rel="import" href="/components/bower_components/google-map/google-map.html">
+			<google-map latitude="37.77493" longitude="-122.41942" fit-to-markers>
+			  <!-- <google-map-marker latitude="37.779" longitude="-122.3892"></google-map-marker> -->
+			</google-map>
+
+		</div>
 	</div>	
 </body>
 </html>
