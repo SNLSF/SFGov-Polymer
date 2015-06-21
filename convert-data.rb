@@ -19,8 +19,8 @@ end
 
 CSV.foreach("./SFPD_Incidents_-_from_1_January_2003.csv") do |crime|
 	description = crime[2]
-	latitude = crime[2]
-	longitude = crime[10]
+	latitude = crime[10]
+	longitude = crime[9]
 	# If we have a valid drug, let's give its marker an attribute
 	drug = description_to_drug(description)
   next if drug.nil?
