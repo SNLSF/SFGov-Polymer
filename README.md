@@ -1,6 +1,6 @@
 # SFGov-Polymer
 
-## A data visualization project using Polymer 1.0
+## A data visualization project using Polymer
 
 
 ## Objectives of this project:
