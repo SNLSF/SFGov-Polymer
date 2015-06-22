@@ -10,19 +10,26 @@
 	<script src="/components/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>	
 </head>
 <body>
-	<div class="header-band"><h1>SF Drug Crimes</h1></div>
+	
+	<div class="header-band">
+		<h1>SF Drug Crimes</h1>
+	</div>
+	
+
 	<div class="main-band">
+		
 		<div class="side-panel">
 			<h2>Checkboxes Below</h2>
 			<link rel="import" href="components/bower_components/paper-checkbox/paper-checkbox.html">
 			<ul>
-				<li><paper-checkbox checked>Marijuana</paper-checkbox></li>
-				<li><paper-checkbox checked>Meth-Amphetamine</paper-checkbox></li>
-				<li><paper-checkbox checked>Heroin</paper-checkbox></li>
-				<li><paper-checkbox checked>Cocaine</paper-checkbox></li>
-				<li><paper-checkbox checked>Opium</paper-checkbox></li>
+				<li><paper-checkbox checked data-drug="marijuana">Marijuana</paper-checkbox></li>
+				<li><paper-checkbox checked data-drug="amphetamine">Meth-Amphetamine</paper-checkbox></li>
+				<li><paper-checkbox checked data-drug="heroin">Heroin</paper-checkbox></li>
+				<li><paper-checkbox checked data-drug="cocaine">Cocaine</paper-checkbox></li>
+				<li><paper-checkbox checked data-drug="opium">Opium</paper-checkbox></li>
 			</ul>
 		</div>
+		
 		<div class="map-area">
 			<link rel="import" href="/components/bower_components/google-map/google-map.html">
 			<google-map latitude="37.77493" longitude="-122.41942" fit-to-markers>
