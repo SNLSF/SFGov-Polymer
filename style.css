@@ -1,5 +1,6 @@
 body {
-	font-family: Arial;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
 	margin: 0;
 	padding: 0;
 }
@@ -11,18 +12,18 @@ a {
 
 /* unvisited link */
 a:link {
-  color: white;
+  color: black;
   text-decoration: none;	
 }
 
 /* visited link */
 a:visited {
-  color: white;
+  color: black;
 }
 
 /* mouse over link */
 a:hover {
-	color: white;
+	color: black;
 	text-decoration: underline;
 }
 
@@ -40,15 +41,17 @@ h1 {
 }
 
 h2 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 2em;
+	font-weight: 700;
 	color: white;
 	margin: 1% 0 0 0;
 	padding: 0;
 }
 
 h3 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
 	font-size: 1.3em;
 	color: #DE3E40;
 }
@@ -82,17 +85,20 @@ h3 {
 	margin-left: 5%;
 	vertical-align: top;
 	padding-top: 2%;
+	overflow: hidden;
 }
 
 google-map {
-	height: 300px;
+	height: 500px;
 	display: inline-block;
 	width: 65%;
+	float: right;
 }
 
 ul {
 	line-height: 1.5em;
 	list-style-type: none;
 }
+
 
 
