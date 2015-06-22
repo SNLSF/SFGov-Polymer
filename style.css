@@ -4,49 +4,90 @@ body {
 	padding: 0;
 }
 
+a {
+	font-size: 1.1em;
+	margin: 0 1% 0 1%;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+  text-decoration: none;	
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: gray;
+}
+
 h1 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 4em;
-	text-align: center;
-}
-
-h2 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.3em;
-}
-
-.header-band {
-	border: 1px solid red;
-	display: block;
-	height: 300px;
-	background: #ffffff url("") no-repeat;
-	background-size: contain;
-	padding-top: 10%;
-}
-
-.main-band {
-	border: 1px solid red;
-	display: block;
-}
-
-.side-panel {
-	border: 1px solid red;
-	display: inline-block;
-	width: 30%;
-	margin-left: 3%;
-	vertical-align: top;
-}
-
-.map-area {
-	border: 1px solid red;
-	display: inline-block;
-	width: 65%;
+	font-size: 6em;
+	color: white;
 	margin: 0;
 	padding: 0;
 }
 
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	color: white;
+	margin: 1% 0 0 0;
+	padding: 0;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3em;
+	color: #DE3E40;
+}
+
+.header-band {
+	display: block;
+	height: 300px;
+	background: #ffffff url("/images/sffog.png") no-repeat center center;
+	padding-top: 10%;
+	text-align: center;
+	position: relative;
+}
+
+.toolbar {
+	height: 40px;
+	text-align: center;
+	background-color: rgba(239,239,239, 0.5);
+	padding-top: 1.3%;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.main-band {
+	display: block;
+}
+
+.side-panel {
+	display: inline-block;
+	width: 25%;
+	margin-left: 5%;
+	vertical-align: top;
+	padding-top: 2%;
+}
+
 google-map {
-	height: 500px;
+	height: 300px;
+	display: inline-block;
+	width: 65%;
 }
 
 ul {
