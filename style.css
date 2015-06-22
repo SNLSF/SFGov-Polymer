@@ -85,17 +85,20 @@ h3 {
 	margin-left: 5%;
 	vertical-align: top;
 	padding-top: 2%;
+	overflow: hidden;
 }
 
 google-map {
 	height: 500px;
 	display: inline-block;
 	width: 65%;
+	float: right;
 }
 
 ul {
 	line-height: 1.5em;
 	list-style-type: none;
 }
+
 
 
