@@ -20,3 +20,5 @@
 ## Stretch Goals:
 
 * Show more than one view of the data 
+
+![alt tag](/images/polymer.png)
