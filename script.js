@@ -5,7 +5,6 @@
 
 	// Some mock-jQuery helper methods, whoo!
 	
-	// http://www.w3schools.com/jsref/met_document_queryselectorall.asp
 	var querySelectorAll = function(selector){
 		var elements = document.querySelectorAll(selector);
 		// Convert NodeList to Array
