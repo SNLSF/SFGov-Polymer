@@ -2,6 +2,7 @@
 
 ## A data visualization project using Polymer
 
+For this project, I utilized the Google Polymer Paper Elements catalog for the checkboxes as well as the Web Component catalog for Google maps.  
 
 ## Objectives of this project:
 
