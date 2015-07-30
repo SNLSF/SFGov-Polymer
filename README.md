@@ -22,4 +22,4 @@ For this project, I utilized the Google Polymer Paper Elements catalog for the c
 
 * Show more than one view of the data 
 
-![alt tag](/images/polymer.png)
+![alt tag](/public/images/polymer.png)
